@@ -1,0 +1,907 @@
+@font-face {
+  font-family: littleQueen;
+  src: url(/font/LittleQueen.ttf);
+}
+#Navbar {
+  position: relative;
+  z-index: 1;
+  background-color: #548084;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+#Navbar .LogoEco01 {
+  max-height: 65px;
+  margin-left: 10%;
+}
+#Navbar .navbar {
+  width: 50%;
+  margin-right: 10%;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  color: #ffffff;
+  text-align: end;
+}
+#Navbar .navbar ul {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+#hero {
+  width: 100%;
+  height: 1500px;
+  background-image: url(/Multimedia/png/FondoHero02.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
+}
+@media screen and (max-width: 983px) {
+  #hero {
+    height: 1000px;
+  }
+}
+@media screen and (max-width: 540px) {
+  #hero {
+    height: 1000px;
+  }
+}
+#hero .textoHero {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 30%;
+  left: 10%;
+  width: 35%;
+}
+#hero .textoHero p {
+  font-family: "Poppins", sans-serif;
+  font-size: 55px;
+  font-weight: 600;
+  color: #ffffff;
+  margin-bottom: 0;
+}
+@media screen and (max-width: 983px) {
+  #hero .textoHero p {
+    text-align: center;
+    font-size: 30px;
+  }
+}
+@media screen and (max-width: 540px) {
+  #hero .textoHero p {
+    text-align: center;
+    font-size: 30px;
+  }
+}
+#hero .textoHero h1 {
+  font-family: littleQueen;
+  font-size: 70px;
+  color: #ffffff;
+  margin-bottom: 0;
+}
+@media screen and (max-width: 983px) {
+  #hero .textoHero h1 {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+}
+@media screen and (max-width: 540px) {
+  #hero .textoHero h1 {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+}
+#hero .textoHero h3 {
+  width: 100%;
+  font-family: "Poppins", sans-serif;
+  font-size: 25px;
+  font-weight: 300;
+  color: #ffffff;
+}
+@media screen and (max-width: 983px) {
+  #hero .textoHero h3 {
+    text-align: center;
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 540px) {
+  #hero .textoHero h3 {
+    text-align: center;
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 983px) {
+  #hero .textoHero {
+    left: 0%;
+    top: 20%;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 540px) {
+  #hero .textoHero {
+    left: 0%;
+    top: 20%;
+    width: 100%;
+  }
+}
+#hero .imgHero {
+  width: 50%;
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  display: flex;
+  justify-content: center;
+}
+@media screen and (max-width: 983px) {
+  #hero .imgHero {
+    left: 0%;
+    top: 50%;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 540px) {
+  #hero .imgHero {
+    left: 0%;
+    top: 50%;
+    width: 100%;
+  }
+}
+#hero .imgHero img {
+  width: 70%;
+}
+@media screen and (max-width: 983px) {
+  #hero .imgHero img {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 540px) {
+  #hero .imgHero img {
+    width: 50%;
+  }
+}
+
+#productos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+#productos h3 {
+  font-family: littleQueen;
+  font-size: 47px;
+  font-weight: 600;
+}
+#productos .productosCard {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-around;
+}
+#productos .productosCard .cardProductos {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 150px;
+}
+#productos .productosCard .cardProductos img {
+  height: 440px;
+  margin-bottom: 50px;
+}
+#productos .productosCard .cardProductos p {
+  font-family: "Poppins", sans-serif;
+  font-size: 25px;
+  font-weight: 700;
+}
+#productos .productosCard .cardProductos a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 233px;
+  height: 65px;
+  border-radius: 11px;
+  background-color: #E59D15;
+  border-color: none;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  text-decoration: none;
+  color: black;
+}
+@media screen and (max-width: 983px) {
+  #productos .productosCard .cardProductos a {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 540px) {
+  #productos .productosCard .cardProductos a {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 983px) {
+  #productos .productosCard .cardProductos {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 540px) {
+  #productos .productosCard .cardProductos {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 983px) {
+  #productos .productosCard {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 540px) {
+  #productos .productosCard {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+}
+
+#proceso {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 100px;
+}
+#proceso h2 {
+  font-family: littleQueen;
+  font-size: 47px;
+  font-weight: 600;
+  margin-bottom: 50px;
+}
+#proceso p {
+  width: 80%;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  text-align: center;
+}
+
+#medidas {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 50px;
+  padding-top: 100px;
+}
+@media screen and (max-width: 983px) {
+  #medidas {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 540px) {
+  #medidas {
+    flex-direction: column;
+  }
+}
+#medidas .card02 {
+  height: 213px;
+  margin: 5%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+}
+@media screen and (max-width: 983px) {
+  #medidas .card02 {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 150px;
+  }
+}
+@media screen and (max-width: 540px) {
+  #medidas .card02 {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 150px;
+  }
+}
+#medidas .card02 .textoCard02 {
+  height: 90px;
+  margin-left: 50px;
+}
+@media screen and (max-width: 983px) {
+  #medidas .card02 .textoCard02 {
+    margin-left: 0px;
+  }
+}
+@media screen and (max-width: 540px) {
+  #medidas .card02 .textoCard02 {
+    margin-left: 0px;
+  }
+}
+#medidas .card02 .textoCard02 .tGrande {
+  height: 30px;
+  font-family: "Poppins", sans-serif;
+  font-size: 25px;
+  font-weight: 600;
+}
+@media screen and (max-width: 983px) {
+  #medidas .card02 .textoCard02 .tGrande {
+    text-align: center;
+    margin-top: 20px;
+  }
+}
+@media screen and (max-width: 540px) {
+  #medidas .card02 .textoCard02 .tGrande {
+    text-align: center;
+    margin-top: 20px;
+  }
+}
+#medidas .card02 .textoCard02 p {
+  height: 30px;
+  font-family: "Poppins", sans-serif;
+  font-size: 25px;
+  font-weight: 300;
+}
+@media screen and (max-width: 983px) {
+  #medidas .card02 .textoCard02 p {
+    text-align: center;
+  }
+}
+@media screen and (max-width: 540px) {
+  #medidas .card02 .textoCard02 p {
+    text-align: center;
+  }
+}
+
+#quienesSomos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+  margin-top: 100px;
+}
+#quienesSomos h3 {
+  font-family: littleQueen;
+  font-size: 47px;
+  font-weight: 600;
+}
+#quienesSomos .valores {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 60px;
+}
+@media screen and (max-width: 983px) {
+  #quienesSomos .valores {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media screen and (max-width: 540px) {
+  #quienesSomos .valores {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+#quienesSomos .valores .card03 {
+  width: 20%;
+}
+@media screen and (max-width: 983px) {
+  #quienesSomos .valores .card03 {
+    width: 80%;
+    margin-top: 100px;
+  }
+}
+@media screen and (max-width: 540px) {
+  #quienesSomos .valores .card03 {
+    width: 80%;
+    margin-top: 100px;
+  }
+}
+#quienesSomos .valores .card03 h4 {
+  font-family: "Poppins", sans-serif;
+  font-size: 32px;
+  font-weight: 500;
+  text-align: center;
+}
+#quienesSomos .valores .card03 p {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  text-align: left;
+}
+@media screen and (max-width: 983px) {
+  #quienesSomos .valores .card03 p {
+    text-align: center;
+  }
+}
+@media screen and (max-width: 540px) {
+  #quienesSomos .valores .card03 p {
+    text-align: center;
+  }
+}
+
+#galeria {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 50px;
+  margin-top: 100px;
+}
+#galeria h3 {
+  font-family: littleQueen;
+  font-size: 47px;
+  font-weight: 600;
+  margin-bottom: 100px;
+}
+#galeria .originales {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 200px;
+}
+#galeria .originales .tituloPersonajes p {
+  font-family: "Poppins", sans-serif;
+  font-size: 25px;
+  font-weight: 500;
+}
+#galeria .originales .personajes {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+@media screen and (max-width: 983px) {
+  #galeria .originales .personajes {
+    display: none;
+  }
+}
+@media screen and (max-width: 540px) {
+  #galeria .originales .personajes {
+    display: none;
+  }
+}
+#galeria .originales .personajes img {
+  width: 15%;
+}
+#galeria .originales .carrouselPersonajes {
+  width: 50%;
+  display: none;
+}
+@media screen and (max-width: 983px) {
+  #galeria .originales .carrouselPersonajes {
+    display: grid;
+  }
+}
+@media screen and (max-width: 540px) {
+  #galeria .originales .carrouselPersonajes {
+    display: grid;
+  }
+}
+#galeria .customizables {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 200px;
+}
+#galeria .customizables .tituloPersonajes p {
+  font-family: "Poppins", sans-serif;
+  font-size: 25px;
+  font-weight: 500;
+}
+#galeria .customizables .personajes {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+#galeria .customizables .personajes img {
+  width: 15%;
+}
+@media screen and (max-width: 983px) {
+  #galeria .customizables .personajes {
+    display: none;
+  }
+}
+@media screen and (max-width: 540px) {
+  #galeria .customizables .personajes {
+    display: none;
+  }
+}
+#galeria .customizables .carrouselPersonajes {
+  width: 50%;
+  display: none;
+}
+@media screen and (max-width: 983px) {
+  #galeria .customizables .carrouselPersonajes {
+    display: grid;
+  }
+}
+@media screen and (max-width: 540px) {
+  #galeria .customizables .carrouselPersonajes {
+    display: grid;
+  }
+}
+#galeria .reciclables {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 200px;
+}
+#galeria .reciclables .tituloPersonajes p {
+  font-family: "Poppins", sans-serif;
+  font-size: 25px;
+  font-weight: 500;
+}
+#galeria .reciclables .personajes {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+#galeria .reciclables .personajes img {
+  width: 15%;
+}
+@media screen and (max-width: 983px) {
+  #galeria .reciclables .personajes {
+    display: none;
+  }
+}
+@media screen and (max-width: 540px) {
+  #galeria .reciclables .personajes {
+    display: none;
+  }
+}
+#galeria .reciclables .carrouselPersonajes {
+  width: 50%;
+  display: none;
+}
+@media screen and (max-width: 983px) {
+  #galeria .reciclables .carrouselPersonajes {
+    display: grid;
+  }
+}
+@media screen and (max-width: 540px) {
+  #galeria .reciclables .carrouselPersonajes {
+    display: grid;
+  }
+}
+
+#envios {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#envios h3 {
+  font-family: littleQueen;
+  font-size: 47px;
+  font-weight: 600;
+  margin-bottom: 100px;
+}
+#envios .card04 {
+  display: flex;
+  flex-direction: row;
+  width: 40%;
+  margin-bottom: 150px;
+}
+@media screen and (max-width: 983px) {
+  #envios .card04 {
+    flex-direction: column;
+    width: 80%;
+    align-items: center;
+  }
+}
+@media screen and (max-width: 540px) {
+  #envios .card04 {
+    flex-direction: column;
+    width: 80%;
+    align-items: center;
+  }
+}
+#envios .card04 .icono {
+  width: 30%;
+  margin-right: 20px;
+  display: flex;
+  justify-content: center;
+}
+@media screen and (max-width: 983px) {
+  #envios .card04 .texto {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 540px) {
+  #envios .card04 .texto {
+    width: 100%;
+  }
+}
+#envios .card04 .texto h6 {
+  font-family: "Poppins", sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+}
+@media screen and (max-width: 983px) {
+  #envios .card04 .texto h6 {
+    text-align: center;
+    margin-top: 50px;
+  }
+}
+@media screen and (max-width: 540px) {
+  #envios .card04 .texto h6 {
+    text-align: center;
+    margin-top: 50px;
+  }
+}
+#envios .card04 .texto p {
+  font-family: "Poppins", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+}
+@media screen and (max-width: 983px) {
+  #envios .card04 .texto p {
+    align-items: flex-start;
+  }
+}
+@media screen and (max-width: 540px) {
+  #envios .card04 .texto p {
+    align-items: flex-start;
+  }
+}
+
+#contacto .fondo {
+  height: 1000px;
+  width: 100%;
+  background-image: url(/Multimedia/png/FondoContacto02.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#contacto .fondo .form {
+  width: 100%;
+  height: 1000px;
+  display: flex;
+  flex-direction: row;
+}
+@media screen and (max-width: 983px) {
+  #contacto .fondo .form {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+}
+@media screen and (max-width: 540px) {
+  #contacto .fondo .form {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+}
+#contacto .fondo .form .logoContacto {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@media screen and (max-width: 983px) {
+  #contacto .fondo .form .logoContacto {
+    display: none;
+  }
+}
+@media screen and (max-width: 540px) {
+  #contacto .fondo .form .logoContacto {
+    display: none;
+  }
+}
+#contacto .fondo .form .formulario {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (max-width: 983px) {
+  #contacto .fondo .form .formulario {
+    width: 90%;
+    padding-bottom: 100px;
+  }
+}
+@media screen and (max-width: 540px) {
+  #contacto .fondo .form .formulario {
+    width: 90%;
+    padding-bottom: 100px;
+  }
+}
+#contacto .fondo .form .formulario h3 {
+  font-family: littleQueen;
+  font-size: 47px;
+  font-weight: 600;
+  top: 20px;
+  color: #373435;
+}
+@media screen and (max-width: 983px) {
+  #contacto .fondo .form .formulario h3 {
+    font-size: 31px;
+    color: #ffffff;
+  }
+}
+@media screen and (max-width: 540px) {
+  #contacto .fondo .form .formulario h3 {
+    font-size: 31px;
+    color: #FFFFFF;
+  }
+}
+#contacto .fondo .form .formulario .mb-3 {
+  width: 50%;
+}
+#contacto .fondo .form .formulario .mb-3 label {
+  background-color: transparent;
+  border-color: transparent;
+}
+#contacto .fondo .form .formulario .mb-3 input {
+  background-color: #D9D9D9;
+}
+#contacto .fondo .form .formulario .mb-3 textarea {
+  background-color: #D9D9D9;
+}
+#contacto .fondo .form .formulario .BotonEnviar {
+  width: 50%;
+  display: flex;
+  justify-content: end;
+}
+#contacto .fondo .form .formulario .BotonEnviar a {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 233px;
+  height: 65px;
+  border-radius: 11px;
+  background-color: #E59D15;
+  border-color: none;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  text-decoration: none;
+  color: black;
+}
+
+#puntosDeVenta {
+  background-color: #373435;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  font-family: "Poppins", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  color: #ffffff;
+}
+@media screen and (max-width: 983px) {
+  #puntosDeVenta {
+    align-items: center;
+  }
+}
+@media screen and (max-width: 540px) {
+  #puntosDeVenta {
+    align-items: center;
+  }
+}
+#puntosDeVenta .logo02 {
+  display: none;
+}
+@media screen and (max-width: 983px) {
+  #puntosDeVenta .logo02 {
+    display: flex;
+    flex-direction: column;
+    height: 59px;
+    margin: 50px;
+    align-items: center;
+  }
+}
+@media screen and (max-width: 540px) {
+  #puntosDeVenta .logo02 {
+    display: flex;
+  }
+}
+#puntosDeVenta h3 {
+  margin-left: 6%;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  font-family: littleQueen;
+  font-size: 47px;
+  font-weight: 600;
+}
+@media screen and (max-width: 983px) {
+  #puntosDeVenta h3 {
+    padding-bottom: 50px;
+    padding-top: 0px;
+    margin-left: 0px;
+    text-align: center;
+    font-size: 25px;
+  }
+}
+@media screen and (max-width: 540px) {
+  #puntosDeVenta h3 {
+    padding-bottom: 50px;
+    padding-top: 0px;
+    margin-left: 0px;
+    text-align: center;
+    font-size: 25px;
+  }
+}
+#puntosDeVenta .puntosInfo {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-around;
+}
+@media screen and (max-width: 983px) {
+  #puntosDeVenta .puntosInfo {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media screen and (max-width: 540px) {
+  #puntosDeVenta .puntosInfo {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+#puntosDeVenta .puntosInfo .direccion {
+  width: 220px;
+  display: flex;
+  flex-direction: column;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+}
+@media screen and (max-width: 983px) {
+  #puntosDeVenta .puntosInfo .direccion {
+    font-size: 14px;
+    margin-bottom: 50px;
+  }
+}
+@media screen and (max-width: 540px) {
+  #puntosDeVenta .puntosInfo .direccion {
+    font-size: 14px;
+    margin-bottom: 50px;
+  }
+}
+#puntosDeVenta .puntosInfo .redes {
+  width: 10%;
+  display: flex;
+  flex-direction: column;
+}
+@media screen and (max-width: 983px) {
+  #puntosDeVenta .puntosInfo .redes {
+    width: 60%;
+    align-items: center;
+  }
+}
+@media screen and (max-width: 540px) {
+  #puntosDeVenta .puntosInfo .redes {
+    width: 60%;
+    align-items: center;
+  }
+}
+#puntosDeVenta .puntosInfo .redes p {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: right;
+}
+#puntosDeVenta .puntosInfo .redes div {
+  justify-content: center;
+}
+#puntosDeVenta .puntosInfo .redes div a {
+  margin: 5px;
+}
+
+/*# sourceMappingURL=style.css.map */
